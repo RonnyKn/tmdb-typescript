@@ -1,0 +1,26 @@
+.header {
+  text-transform: uppercase;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-bg);
+  padding-bottom: 5px;
+  box-shadow: 0px 1px 5px black;
+  z-index: 100;
+}
+.header span {
+  font-size: 4vw;
+  cursor: pointer;
+}
+.header p {
+  font-size: 10px;
+}
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}

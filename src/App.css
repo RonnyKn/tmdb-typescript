@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Gumela;
+  src: url("../src/assets/fonts/Gumela Regular.otf");
+}
+
+:root {
+  --color-bg: #39445a;
+  --color-white: #fff;
+  --color-black: #000;
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+
+  --transition: all 1s ease 0s;
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  line-height: 1.7;
+  font-family: Gumela;
+  color: var(--color-white);
+  background-color: var(--color-bg);
+}
+
+section {
+  padding: 1rem 0;
+}
+.app {
+  margin: 0 auto;
+  position: relative;
+}
+.container {
+  min-height: 100vh;
+  padding-top: 110px;
+  padding-bottom: 70px;
+}
+.wrapper {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+button {
+  background-color: var(--color-bg);
+  padding: 10px;
+  border: 1px solid rgb(135, 133, 133);
+  border-radius: 10px;
+  color: var(--color-white);
+  transition: var(--transition);
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.loading-text {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+}

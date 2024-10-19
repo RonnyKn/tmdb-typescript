@@ -1,0 +1,19 @@
+.navigation {
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-white);
+  background-color: var(--color-bg);
+  box-shadow: 0px 1px 10px black;
+  z-index: 110;
+  gap: 1rem;
+  font-weight: bold;
+}
+.navigation button {
+  color: var(--color-white);
+}
